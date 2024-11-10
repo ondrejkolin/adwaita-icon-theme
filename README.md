@@ -32,7 +32,7 @@ Gtk doesn't care about the colors you define for the icon. They are recolored at
 
 ### Cursor generation
 
-Cursors are in the xcursorgen format. They come in multiple sizes and possibly animation frames per file. Generating them is a two sstep process. 
+Cursors are in the xcursorgen format. They come in multiple sizes and possibly animation frames per file. Generating them is a two step process. 
 
 First step is to render the source svg into multiple pngs. This is done with the `renderpngs.py` script. It takes the adwaita.svg file and generates the pngs for the different sizes and saves them in the `pngs/` directory.
 
